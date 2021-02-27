@@ -11,18 +11,31 @@ description: A new Flutter application.
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.1.0+1
+version: 2.6.1+1
 
 environment:
   sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
+  overlay_support: ^1.0.3
+  rflutter_alert: ^1.0.3
   http: ^0.12.0
   html:
   package_info: ^0.4.0+16
-  # charts_flutter: ^0.9.0
+  animated_text_kit: ^2.0.0
+  fl_chart: ^0.9.3
+  charts_flutter: ^0.9.0
+#  syncfusion_flutter_charts: ^18.1.44
+  splashscreen:
+  photo_view: ^0.9.2
   url_launcher:
   flutter_launcher_icons: ^0.7.0
+  flutter_placeholder_textlines:
+  firebase_messaging: ^5.1.4
+  flutter_local_notifications:
+
+  #  firebase_database: 1.0.3
+#  path_provider: ^1.6.5
   flutter:
     sdk: flutter
 
@@ -53,6 +66,8 @@ flutter:
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
+  assets:
+    - assets/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
